@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/sc.js" type="module"></script>
+    <title>Pong game</title>
+</head>
+<body>
+    <canvas id="canvas" style ="display:none"></canvas>
+    <div class="score">
+      <div id="c-score">0</div>
+      <div id="computer-score">0</div>
+    </div>
+    <div class="container">
+        <div class="center">
+            <a href="hra/index.html">
+          <button class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>Start</span>
+          </button>
+        </a>
+        </div>
+      </div>
+    <div class="ball" id="ball"></div>
+    <div class="paddle left" id="c-paddle"></div>
+    <div class="paddle right" id="computer-paddle"></div>
+    <h1 class="score">PoNG</h1>
+    <h2>Ovládání</h2>
+      <div class="idk">
+        <ul>
+            <li>hráč je na levo</li>
+            <li>hra se ovládá myší</li>
+            <li>míček se s každým odrazem zrychluje</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
