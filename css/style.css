@@ -23,7 +23,7 @@
     top: calc(var(--position) * 1vh);
     transform: translateY(-50%);
     width: 1vh;
-    height: 15vh;
+    height: 20vh;
   }
   
   .paddle.left {
