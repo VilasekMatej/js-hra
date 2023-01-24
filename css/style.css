@@ -11,7 +11,7 @@
   
   body {
     margin: 0;
-    background-color: var(--background-color);
+    background-color: lightskyblue;
     overflow: hidden;
   }
   
@@ -19,7 +19,7 @@
     --position: 50;
   
     position: absolute;
-    background-color: var(--foreground-color);
+    background-color: lightseagreen;
     top: calc(var(--position) * 1vh);
     transform: translateY(-50%);
     width: 1vh;
@@ -39,7 +39,7 @@
     --y: 50;
   
     position: absolute;
-    background-color: var(--foreground-color);
+    background-color: lightseagreen;
     left: calc(var(--x) * 1vw);
     top: calc(var(--y) * 1vh);
     border-radius: 50%;
@@ -53,7 +53,7 @@
     justify-content: center;
     font-weight: bold;
     font-size: 7vh;
-    color: var(--foreground-color);
+    color: lightseagreen;
   }
   
   .score > * {
@@ -66,7 +66,7 @@
   
   .score > :first-child {
     text-align: right;
-    border-right: .5vh solid var(--foreground-color);
+    border-right: .5vh solid lightseagreen;
   }
 
   @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
@@ -137,17 +137,21 @@ h2 {
   justify-content: center;
   font-weight: bold;
   font-size: 4vh;
-  color: var(--foreground-color);
+  color: lightseagreen;
 }
 
 .idk{
 display: flex;
 justify-content: center;
 align-items: center;
-color: var(--foreground-color);
+color: lightseagreen;
 font-size: 3vh;
 }
 
 ul {
   padding-top: -25px;
+}
+
+span{
+  color:lightseagreen
 }
