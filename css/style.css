@@ -121,7 +121,7 @@ svg {
 }
 
 .btn span {
-  color: var(--foreground-color);
+  color: lightseagreen;
   font-size: 18px;
   font-weight: 100;
 }
